@@ -54,9 +54,9 @@ public class ApplicationContextSmeBeanFindTest {
             return new MemoryMemberRepository();
         }
 
-        @Bean
-        public MemberRepository memberRepository2() {
-            return new MemoryMemberRepository();
-        }
+//        @Bean
+//        public MemberRepository memberRepository2() {
+//            return new MemoryMemberRepository();
+//        }
     }
 }
